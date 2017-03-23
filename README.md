@@ -57,7 +57,7 @@ RENAMED FOR NUGAX'S PUBLIC GITHUB
 
 YOU CAN RUN THE SCRIPT: setup_env_nugax.sh to do this series of commands for you, alternatively, if on a headless system or just want to!
 Added by Nugax.  
-To Get the script - Run this script in /home/swgemu : 
+To Get the script - Run this command in /home/swgemu : 
 
     wget http://update.swgresurrection.com/server/setup_env_nugax.sh
 
