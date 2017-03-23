@@ -30,7 +30,7 @@ VirtualBox, VMWare, or native install.
 
 ### Login info (This means create your useraccounts as below for a seamless install.) 
 #### If you do not use these, and you can chose other passwords, you will have to manually change. Do not do
-so unless you are experienced with the scripts and install process of Core3 and this script.
+#### so unless you are experienced with the scripts and install process of Core3 and this script.
 
 * username = swgemu
 * password = 123456
