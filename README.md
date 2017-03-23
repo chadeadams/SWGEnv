@@ -59,12 +59,12 @@ YOU CAN RUN THE SCRIPT: setup_env_nugax.sh to do this series of commands for you
 Added by Nugax.  
 To Get the script - Run this command in /home/swgemu : 
 
-    wget http://update.swgresurrection.com/server/setup_env_nugax.sh
+    wget http://update.swgresurrection.com/server/setup_swgenv.sh
 
 
 Copy this series of commands into a terminal if you do not want to use the above script: Installs git, downloads scripts and installs them.
 
-	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGDevEnvDebianBased.git && cp -i /home/swgemu/DevEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/DevEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/DevEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/DevEnv/bin/* && cat ~/DevEnv/bin/pathto &>> ~/.bashrc
+	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGEnv.git && cp -i /home/swgemu/SWGEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/SWGEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/SWGEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/SWGEnv/bin/* && cat ~/SWGEnv/bin/pathto &>> ~/.bashrc && ln -s bin ~/SWGEnv/bin
 
 ## Run setup scripts
 ## Run them in order. Start with 1. Do each in succession. DO NOT skip them, unless you are re-doing a section.
@@ -116,7 +116,7 @@ The following scripts are run from the command line. They are numbered in the or
 * git log --pretty=format:'%h was %an, %ar, message: %s' -10
 
 * add to .bashrc
-	* PATH=$PATH:$HOME/DevEnv/bin
+	* PATH=$PATH:$HOME/SWGEnv/bin
 	* export PATH
 
 **************************************************************************************
