@@ -55,7 +55,7 @@ To Get the script - Run this script in /home/swgemu :
     wget http://update.swgresurrection.com/server/setup_env_nugax.sh
 
 
-Copy this series of commands into a terminal: Installs git, downloads scripts and installs them.
+Copy this series of commands into a terminal if you do not want to use the above script: Installs git, downloads scripts and installs them.
 
 	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGDevEnvDebianBased.git && cp -i /home/swgemu/DevEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/DevEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/DevEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/DevEnv/bin/* && cat ~/DevEnv/bin/pathto &>> ~/.bashrc
 
