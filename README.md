@@ -1,10 +1,10 @@
 # SWGEmu Development Environment setup
 
-#==============================================================================================================================================
-#ALL THANKS AND PRAISE GOES TO SCURBY (ON GITHUB) FOR THIS SCRIPT. I COMPLETELY COPIED IT FOR SAVING FOR MY USE. USE AND ENJOY. I DID NOT
-#WRITE ANYTHING AND ONLY CHANGED THE INSTRUCTIONS TO REFERENCE MY GITHUB.
+#===============================================================================================================
+#ALL THANKS AND PRAISE GOES TO SCURBY (ON GITHUB) FOR THIS SCRIPT. I COMPLETELY COPIED IT FOR SAVING FOR MY USE. 
+#USE AND ENJOY. I DID NOT WRITE ANYTHING AND ONLY CHANGED THE INSTRUCTIONS TO REFERENCE MY GITHUB.
 #-Nugax (nugax@swgresurrection.com
-#==============================================================================================================================================
+#==================================================================================================+============
 
 ****************************************************************************************************************
 Special Thanks to lordkator for the initial FastTrack VM Image and the scripts that this repository is based on.
