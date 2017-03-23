@@ -64,7 +64,7 @@ To Get the script - Run this command in /home/swgemu :
 
 Copy this series of commands into a terminal if you do not want to use the above script: Installs git, downloads scripts and installs them.
 
-	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGEnv.git && cp -i /home/swgemu/SWGEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/SWGEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/SWGEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/SWGEnv/bin/* && cat ~/SWGEnv/bin/pathto &>> ~/.bashrc && ln -s bin ~/SWGEnv/bin
+	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGEnv.git && cp -i /home/swgemu/SWGEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/SWGEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/SWGEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/SWGEnv/bin/* && cat ~/SWGEnv/bin/pathto &>> ~/.bashrc && ln -s /home/swgemu/SWGEnv/bin bin
 
 ## Run setup scripts
 ## Run them in order. Start with 1. Do each in succession. DO NOT skip them, unless you are re-doing a section.
