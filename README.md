@@ -6,7 +6,7 @@ ALL THANKS AND PRAISE GOES TO SCURBY (ON GITHUB) FOR THIS SCRIPT. I COMPLETELY C
 IT FOR SAVING FOR MY USE and SLIGHTLY MODIFIED IT. USE AND ENJOY. I DID NOT WRITE 
 ANYTHING NEW AND ONLY CHANGED THE INSTRUCTIONS AND SMALL AREAS TO REFERENCE MY GITHUB.
 
--Nugax (nugax@swgresurrection.com
+-Nugax (nugax@swgresurrection.com)
 
 =======================================================================================
 
