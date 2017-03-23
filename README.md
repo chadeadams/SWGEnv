@@ -28,13 +28,17 @@ VirtualBox, VMWare, or native install.
 * MakuluLinux - http://makululinux.com/
 * LinuxMint Debian Edition - http://www.linuxmint.com/download_lmde.php
 
-### Login info (This means create your useraccounts as below for a seamless install.) 
-#### If you do not use these, and you can chose other passwords, you will have to manually change. Do not do
-#### so unless you are experienced with the scripts and install process of Core3 and this script.
+### Login info (This means create your useraccounts (in Linux and MySQL) as below for a seamless install.) 
+#### If you do not use these and you can chose other passwords than these for security, then you will have to manually change 
+#### settings in the evironment. Do not do so unless you are experienced with the scripts and install process of Core3 and 
+#### this script. 
+
+Default seamless values for use with this script.
 
 * username = swgemu
 * password = 123456
 * root pw = 12345678
+* MySQL User PW = 123456
 
 ### Predefined software selections
 
