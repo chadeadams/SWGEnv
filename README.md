@@ -44,11 +44,16 @@ https://www.digitalocean.com/community/tutorials/how-to-add-delete-and-grant-sud
 
 #RENAMED FOR NUGAX'S PUBLIC GITHUB
 
+#  YOU CAN RUN THE SCRIPT: setup_env_nugax.sh to do this series of commands for you, alternatively, if on a headless system or just want to!
+# Added by Nugax.  
+
 Copy this series of commands into a terminal: Installs git, downloads scripts and installs them.
 
 	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGDevEnvDebianBased.git && cp -i /home/swgemu/DevEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/DevEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/DevEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/DevEnv/bin/* && cat ~/DevEnv/bin/pathto &>> ~/.bashrc
 
 ## Run setup scripts
+# Run them in order. Start with 1. Do each in succession. DO NOT skip them, unless you are re-doing a section.
+# -Nugax
 
 The following scripts are run from the command line. They are numbered in the order I use them.
 
