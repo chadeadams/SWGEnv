@@ -24,7 +24,7 @@ VirtualBox, VMWare, or native install.
 # Install Debian 64bit Desktop OS
 (or variant)
 * Debian - https://www.debian.org/
-* pointLinux - http://pointlinux.org/
+* pointLinux - http://pointlinux.org/    (The distro I chose and works flawlessly - nugax)
 * MakuluLinux - http://makululinux.com/
 * LinuxMint Debian Edition - http://www.linuxmint.com/download_lmde.php
 
