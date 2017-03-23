@@ -1,5 +1,11 @@
 # SWGEmu Development Environment setup
 
+#==============================================================================================================================================
+#ALL THANKS AND PRAISE GOES TO SCURBY (ON GITHUB) FOR THIS SCRIPT. I COMPLETELY COPIED IT FOR SAVING FOR MY USE. USE AND ENJOY. I DID NOT
+#WRITE ANYTHING AND ONLY CHANGED THE INSTRUCTIONS TO REFERENCE MY GITHUB.
+#-Nugax (nugax@swgresurrection.com
+#==============================================================================================================================================
+
 ****************************************************************************************************************
 Special Thanks to lordkator for the initial FastTrack VM Image and the scripts that this repository is based on.
 ****************************************************************************************************************
@@ -36,9 +42,11 @@ https://www.digitalocean.com/community/tutorials/how-to-add-delete-and-grant-sud
 
 # Import scripts
 
+#RENAMED FOR NUGAX'S PUBLIC GITHUB
+
 Copy this series of commands into a terminal: Installs git, downloads scripts and installs them.
 
-	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/Scurby/DevEnv.git && cp -i /home/swgemu/DevEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/DevEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/DevEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/DevEnv/bin/* && cat ~/DevEnv/bin/pathto &>> ~/.bashrc
+	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGDevEnvDebianBased.git && cp -i /home/swgemu/DevEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/DevEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/DevEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/DevEnv/bin/* && cat ~/DevEnv/bin/pathto &>> ~/.bashrc
 
 ## Run setup scripts
 
