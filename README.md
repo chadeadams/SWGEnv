@@ -1,10 +1,10 @@
-# SWGEmu Development Environment setup
+# SWGEmu Development Environment setup (Scurby)
 
 #=======================================================================================
-#ALL THANKS AND PRAISE GOES TO SCURBY (ON GITHUB) FOR THIS SCRIPT. I COMPLETELY COPIED 
-#IT FOR SAVING FOR MY USE and SLIGHTLY MODIFIED IT. USE AND ENJOY. I DID NOT WRITE 
-#ANYTHING NEW AND ONLY CHANGED THE INSTRUCTIONS AND SMALL AREAS TO REFERENCE MY GITHUB.
-#-Nugax (nugax@swgresurrection.com
+ALL THANKS AND PRAISE GOES TO SCURBY (ON GITHUB) FOR THIS SCRIPT. I COMPLETELY COPIED 
+IT FOR SAVING FOR MY USE and SLIGHTLY MODIFIED IT. USE AND ENJOY. I DID NOT WRITE 
+ANYTHING NEW AND ONLY CHANGED THE INSTRUCTIONS AND SMALL AREAS TO REFERENCE MY GITHUB.
+-Nugax (nugax@swgresurrection.com
 #=======================================================================================
 
 ****************************************************************************************************************
@@ -47,7 +47,8 @@ RENAMED FOR NUGAX'S PUBLIC GITHUB
 
 YOU CAN RUN THE SCRIPT: setup_env_nugax.sh to do this series of commands for you, alternatively, if on a headless system or just want to!
 Added by Nugax.  
-To Get the script - Run: 
+To Get the script - Run this script in /home/swgemu : 
+
     wget http://update.swgresurrection.com/server/setup_env_nugax.sh
 
 
@@ -56,8 +57,8 @@ Copy this series of commands into a terminal: Installs git, downloads scripts an
 	sudo apt-get update && sudo apt-get install -y -q git && git clone https://github.com/nugax/SWGDevEnvDebianBased.git && cp -i /home/swgemu/DevEnv/README.md /home/swgemu/Documents && mkdir setup && cp -i /home/swgemu/DevEnv/setup/* /home/swgemu/setup/ && mkdir run && cp -r /home/swgemu/DevEnv/run/* /home/swgemu/run/ && chmod -v +x /home/swgemu/DevEnv/bin/* && cat ~/DevEnv/bin/pathto &>> ~/.bashrc
 
 ## Run setup scripts
-# Run them in order. Start with 1. Do each in succession. DO NOT skip them, unless you are re-doing a section.
-# -Nugax
+## Run them in order. Start with 1. Do each in succession. DO NOT skip them, unless you are re-doing a section.
+## -Nugax
 
 The following scripts are run from the command line. They are numbered in the order I use them.
 
